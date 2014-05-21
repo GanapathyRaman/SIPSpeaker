@@ -1,0 +1,9 @@
+<html>
+	<title>Error</title>
+	<body>
+		<br><h2 align="center">Error: Can't store a Empty Message</h2>
+		</br>
+		<h3 align="center">To save a new message</h3>
+		<h3 align="center"><a href = "index">Click Here</a></h3>
+	</body>
+</html>

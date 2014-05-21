@@ -1,0 +1,5 @@
+#!/bin/bash 
+#java -Djava.awt.headless=false -cp
+rm -f sip/*.class
+javac -cp .:libs/* sip/*.java
+sudo java -cp .:libs/* sip/SIPSpeaker "$@"

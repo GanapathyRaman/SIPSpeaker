@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<title>Admin Portal</title>
+	<style type="text/css">
+		h1 {text-align:center}
+		.inputBox {
+			width: 600px;
+		}
+
+	</style>
+<body>
+	<h1 align="centre">Welcome to Admin Portal</h1>
+	</br>
+	<form action="/result" method="POST">
+	<table align="center">
+		<tr>
+			<th style="width: 600px"><h2>Enter the message to be played out for the user</h2></th> 
+			<th style="width: 600px">
+				</br><h2>To read the existing message</h2>
+				<a href="voice"><h3>Click Here<h3></a>
+			</th>
+		</tr>
+		<tr>
+			<th style="width: 600px"><textarea class="inputBox" name="message" style="height: 200px;"></textarea></th>
+		</tr>
+		<tr>
+			<th style="width: 600px">
+		 		<input type="submit" value="Submit" />
+				<input type="reset" value="Clear" />
+			</th>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>
