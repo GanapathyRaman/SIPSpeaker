@@ -19,8 +19,7 @@
 #          * Folder Audio
 #              * Contains default.wav and default.txt and a temporary folder.
 #          * Folder Libs
-#              * Contains ten jar files of Freetts, one jmf.jar (for RTP) and org.xbill.dns_2.1.6.jar for  
-        DNS functionalities.
+#              * Contains ten jar files of Freetts, one jmf.jar (for RTP) and org.xbill.dns_2.1.6.jar for DNS functionalities.
 #          * Folder SIP
 #              * Contains eleven java files for SIP, SDP, RTP, Web, DNS, Server Log functionality
 #               Files:
@@ -47,3 +46,7 @@
 #  10. For the clients UA, open any SIP Softphones, preferably Linphone or SJPhone and call to 
 #         the SIP Speaker/Server using the foloowing URI syntax
 #         “sip:<server_username>@<ip/domain>:<port>”
+#
+# Note: Sometimes JMF requires to add the interfaces IP address (through which the communication happens) to the file "/etc/hosts"
+# Eg. 
+# 192.168.3.110  Your_Username <like Bob, Joe>
